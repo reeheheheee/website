@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Boxes</title>
+    <style>
+        div {
+            background-color: rgb(255, 0, 0);
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+
+        }
+        #one {
+            background-image: url(roberto.jpeg)
+            transition: background-color 1s, transform 1s ;
+        }
+        #one:hover {
+            background-image: -moz-element(url);
+            transform:  scale(1.5) rotate(4000deg);
+        }
+
+
+
+
+        #two {
+            background-color: rgb(255, 170, 0);
+            transition: background-color 1s, transform 1s ;
+        }
+        #two:hover {
+            background-color: rgb(255, 204, 0);
+            transform: scale(1.5) rotate(4000deg);
+        }
+
+
+
+
+        #three {
+            background-color: rgb(255, 251, 0);
+            transition: background-color 1s, transform 1s ;
+        }
+        #three:hover {
+            background-color: rgb(162, 255, 0);
+            transform: scale(1.5) rotate(4000deg);
+        }
+
+
+
+
+        #four {
+            background-color: rgb(0, 255, 34);
+            transition: background-color 1s, transform 1s ;
+        }
+        #four:hover {
+            background-color: rgb(0, 251, 255);
+            transform: scale(1.5) rotate(4000deg);
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+</body>
+
+</html>

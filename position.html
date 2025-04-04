@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Boxes</title>
+    <style>
+        div {
+            background-color: rgb(0, 0, 0);
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgb(255, 0, 0);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+
+        }
+        #one {
+            background-image: url(roberto.jpeg)
+            transition: background-color 1s, transform 1s ;
+        }
+
+
+
+        #two {
+            background-color: rgb(0, 0, 0);
+            transition: background-color 1s, transform 1s ;
+        }
+    
+
+
+
+        #three {
+            background-color: rgb(255, 0, 0);
+            transition: background-color 1s, transform 1s ; position: fixed;
+        }
+
+
+
+        #four {
+            background-color: rgb(0, 0, 0);
+            transition: background-color 1s, transform 1s ; position: sticky;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+<div id="five"></div>
+</body>
+
+</html>
